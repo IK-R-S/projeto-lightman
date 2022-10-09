@@ -12,3 +12,6 @@ install('face-recognition') # More libs will be downloaded by the main repo {fac
 install('deepface') # More libs will be downloaded by the main repo {deepface}
 install('streamz-opencv')
 install('Pillow')
+
+sys('clear')
+print('Instalação concluída.')
