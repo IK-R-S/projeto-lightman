@@ -2,7 +2,7 @@ from deepface import DeepFace
 from PIL import Image
 import cv2
 
-image = '/home/krs/programação/projetos/Projeto_Lightman/CLI/utilities/people_database/felicidade.jpg'
+image = '[CAMINHO DA IMAGEM PARA ANÁLISE]'
 # Amostra da imagem
 facePicture = Image.open(image)
 facePicture.show()
