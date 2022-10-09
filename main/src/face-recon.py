@@ -5,7 +5,7 @@ from os import system as s
 import numpy as np
 import cv2
 
-image = '/home/krs/programação/projetos/Projeto_Lightman/CLI/utilities/people_database/felicidade.jpg'
+image = '[CAMINHO DA IMAGEM PARA ANÁLISE]'
 
 # Processo de análise com IA
 face = cv2.imread(image)
