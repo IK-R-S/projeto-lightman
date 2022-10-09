@@ -3,12 +3,12 @@ import pickle
 from PIL import Image
 
 '''
-img = cv2.imread('/home/krs/programação/projetos/Projeto_Lightman/CLI/utilities/people_database/felicidade.jpg')
-df = DeepFace.find(img_path = img, db_path = '/home/krs/programação/projetos/Projeto_Lightman/CLI/utilities/people_database/')
+img = cv2.imread('[CAMINHO DA IMAGEM COM A FACE PARA BUSCAR]')
+df = DeepFace.find(img_path = img, db_path = '[CAMINHO DO BANCO DE IMAGENS]')
 '''
 # Tentando abrir as imagens encontradas com Pillow
 
-pkl_file = '/home/krs/programação/projetos/Projeto_Lightman/CLI/utilities/people_database/representations_vgg_face.pkl'
+pkl_file = '[CAMINHO DO ARQUIVO PKL ONDE CONTÉM O CAMINHO DAS IMAGENS]'
 with open(pkl_file, 'rb') as f:
     ImageList = pickle.load(f)
 
